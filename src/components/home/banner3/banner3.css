@@ -1,0 +1,61 @@
+.banner3 {
+  /* background-image: linear-gradient(176deg,white 20%, #e2dbdb 40% ,white 60%); */
+  background-image: url("./dashboardBackgroun.png");
+  background-size: 111rem 36rem;
+  /* background: no-repeat; */
+}
+.b3 {
+  margin: 0px 4.5rem 0px 4.5rem;
+  padding-bottom: 1.5rem;
+  box-shadow: 0px 0.1rem #b4b4b4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0.2rem #f7f4f4;
+}
+.banner3_body_img {
+  width: 70rem;
+}
+.b3_box1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 6rem;
+}
+.b3_box1_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.b3_icon {
+  font-size: 2.5rem;
+  color: #e21212;
+}
+.b3_box1_header h1 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+.b3_box1_para {
+  font-weight: lighter;
+  text-align: left;
+  font-size: 1.3rem;
+  padding: 1rem 1rem 0 0;
+}
+.dashBoard_link {
+  background-color: #e21212;
+  color: white;
+  border-radius: 1rem;
+  border: white;
+  box-shadow: 0px 0.1rem grey;
+  text-align: center;
+  text-decoration: none;
+  padding: 0.5rem 1.2rem;
+  transition: 1s;
+}
+.dashBoard_link:hover {
+  color: rgb(231, 232, 233);
+  box-shadow: 0px 0.2rem lightgrey;
+}
+.b3 img {
+  width: 100%;
+}

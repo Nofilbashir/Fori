@@ -1,0 +1,119 @@
+.cal_box4 {
+    display: flex;
+       
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+.cal_box4>h3{
+    font-weight: bold;
+    font-size: 2rem;   
+}
+.cal_box4>p{
+    font-weight: lighter;
+    font-size: 1.3rem;
+    padding: 1rem 0rem 3rem 0rem;   
+}
+.b4_c1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.b4_b1_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+}
+.b4_left_b1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+    width:100%;
+    height:auto;
+    gap:4rem;
+}
+.countryselector{
+    padding: 3rem 1rem;
+}
+.countryselector>h4{
+    font-size: 1rem;
+    font-weight: bold;
+    /* padding-bottom: 0.7rem; */
+    height:4rem;
+}
+.kmsshared{
+    padding: 3rem 1rem;
+}
+.kmsshared>h4{
+    font-size: 1rem;
+    font-weight: bold;
+    /* padding-bottom:0.7rem; */
+    height:4rem;
+}
+.kmsshared>input{
+    border:1px solid lightgray;
+    border-radius: 1rem;
+    padding: .5rem 3rem;
+    width:100%;
+    margin:0rem;
+}
+.dynamicLineGraph>h4{
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 1rem 0rem 3rem 0rem;
+}
+.b4_b1_left>button {
+    display: inline-block;
+    background-color: #e21212;
+    color: white;
+    border-radius: 1rem;
+    border: white;
+    box-shadow: 0px 0.1rem lightgrey;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.7rem 3rem 0.7rem 3rem;
+    transition: 1s;
+    width:50%;
+    cursor: pointer;
+    -webkit-transition: all ease-in-out 300ms;
+    transition: all ease-in-out 300ms;
+    }
+    
+  
+
+.b4_b1_left>button:hover {
+    box-shadow: 0px 37px 20px -20px rgba(0, 0, 0, 0.2);
+    -webkit-transform: translate(0px, -10px) scale(1);
+    transform: translate(0px, -10px) scale(1);
+}
+
+  /* .b4_b1_left>button:hover {
+    color: rgb(231, 232, 233);
+    box-shadow: 0px 0.2rem lightgrey;
+  } */
+  #country{
+      padding: 0.5rem 3rem;
+      background-color: #e21212;
+      color:white;
+      border:0px solid gray;
+      border-radius: 1rem;
+      width:100%;
+  }
+  .country_option{
+      background-color: white;
+      color:black;
+      padding: 2rem 2rem;
+  }
+.b4_lineGraph {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* height:20%; */
+}
+.b4_b1_right{
+    /* width:50%; */
+}

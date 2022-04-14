@@ -1,0 +1,132 @@
+.cal_box2{
+    background-color: #f7f7f7;
+}
+
+.box2{
+    display: flex;
+    padding: 1rem 0rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0.3px solid rgba(0, 0, 0, 0.534);
+
+
+    border-radius: 0.4rem;
+}
+.box2>h5{
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding:1rem;
+}
+
+.box2_img{
+    display: flex;
+    width: 100%;
+    justify-content:space-between ;
+    padding: 0rem 1rem;
+}
+
+.box2_oneimg{
+    padding: 0.9rem;
+    width: 26%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+.percentimage{
+
+padding: 0.9rem;
+width: 6rem;
+}
+.box2_oneimg p{
+    font-size: 1rem;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.box2_oneimg img{
+    width:100%;
+}
+.b2_c3 {
+    text-align: center;
+    padding: 1rem 2rem 0.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.b2_c3 p{
+    font-weight: lighter;
+    text-align: center;
+    font-size: 1.3rem;
+}
+.b2_c3_b1{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.b2_c3_b1_childs{
+ padding: 0.9rem;
+}
+.b2_c3_b1Diesel{
+    color:#2a0052;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.b2_c3_b1Petrol{
+    color:#59003f;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.b2_c3_b1Hybrid{
+    color:#940025;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.b2_c3_b1 p{
+    font-weight: bold;
+    font-size: 1rem;
+
+}
+
+.b2_equation{
+    background-color: #e21212;
+    color: #ffffff;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 0.6rem;
+
+}
+.b2_c3_b2{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.b2_c3_b2 p{
+    font-weight: bold;
+    font-size: .9rem;
+}
+.b2_c3>h6{
+    font-weight: bold;
+}
+.b2_c3>p>a {
+    font-weight: normal;
+    font-size: 1rem;
+
+}
+@media only screen and (max-width: 340px) {
+.b2_equation{
+    font-size: 0.8rem;
+    
+}
+
+}
+@media only screen and (max-width: 900px) {
+    .calculations_page {
+        margin: 0rem 2.5rem;
+    }
+
+}

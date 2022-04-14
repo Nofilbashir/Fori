@@ -1,0 +1,36 @@
+.b7 {
+  margin: 0rem 4.5rem 3rem 4, 5rem;
+}
+.b7_box {
+  padding-top: 2rem;
+}
+.b7_info {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 14rem);
+  column-gap: 3rem;
+  row-gap: 2rem;
+  justify-content: center;
+  padding: 1rem 2rem 3rem 2rem;
+}
+.b7_card {
+  border: 0.1rem solid rgb(202, 200, 200);
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1vw;
+  width: 14rem;
+}
+
+.b7_heading {
+  font-weight: bold;
+}
+.b7_para {
+  font-weight: lighter;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+html {
+  min-width: 200px;
+}

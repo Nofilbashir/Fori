@@ -1,0 +1,24 @@
+
+.calculations_page{
+    margin:0 4.5rem;
+}
+.calculations_box1{
+    padding: 3rem 0rem 3rem 0rem;
+}
+.calculations_box1>center>h1{
+    font-weight: bold;
+    font-size: 2rem;
+}
+.calculations_box1>center>p{
+    font-weight: lighter;
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 1rem;
+    margin:0px;
+
+}
+.calculations_box1>center>p>a{
+    font-weight: normal;
+    font-size: 1rem;
+
+}

@@ -1,0 +1,30 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.b2_about {
+  margin: 0px 4.5rem 0px 4.5rem;
+  padding-top: 1.5rem;
+  box-shadow: 0px 0.1rem #f7f4f4;
+}
+.b2_about_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.b2_about_heading {
+  font-weight: bold;
+  font-size: 2rem;
+  padding: 0.5rem 0.5rem 0 0;
+}
+.b2_about_img {
+  width: 2.5rem;
+}
+.b2_about_para {
+  font-weight: lighter;
+  text-align: center;
+  font-size: 1.3rem;
+  padding: 1rem;
+}

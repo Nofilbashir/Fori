@@ -1,0 +1,35 @@
+.expertise-page {
+  margin: 0 4.5rem;
+}
+.expertise_main_icon {
+  margin: 0;
+  padding: 0;
+}
+.expertise_main_icon img {
+  width: 6.3rem;
+}
+.person_icon {
+  height: 5.2rem;
+}
+.three_star {
+  color: #e21212;
+  font-size: 3rem;
+}
+.expertise_main_heading {
+  color: #e21212;
+  font-weight: bold;
+}
+.expertise_main_para {
+  font-weight: normal;
+  text-align: center;
+  font-size: larger;
+  padding: 0 2rem 0 2rem;
+}
+.p_div {
+  padding: 0 3rem 0rem 3rem;
+}
+.expertise_box1 {
+  padding-top: 1%;
+  box-sizing: border-box;
+  padding: 2rem 3rem;
+}
