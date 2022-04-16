@@ -38,7 +38,7 @@ function Cal_box3() {
       </div> */}
     </div>
     <div className="b3_b4">
-        <h1>Each shared EV reduce 15 private cars. In 2020 Private cars produced 41% of Transport sector <CO/><a href='https://www.fueleconomy.gov/'> [9] </a></h1>
+        <h1>Each shared EV reduce 15 private cars. In 2020 Private cars produced 41% of Transport sector <CO/><a href='https://www.fueleconomy.gov/' target="_blank" rel="noreferrer"> [9] </a></h1>
          <div className="b3_b4_img">
           <>
          <Piechart/>

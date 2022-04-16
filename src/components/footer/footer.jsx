@@ -27,10 +27,10 @@ function Footer (){
     )
 }
 function Feautures(){
-    const feautures=["sample test","sample test","sample test","sample test","sample test",];
+    const feautures=["Advertisers","Developers","Resources","Company","Connect",];
     return(
         <>
-        <h4 className="f_feauture_heading">Feautures</h4>
+        <h4 className="f_feauture_heading">NAVIGATE</h4>
         {feautures.map((feauture,index)=>{
     return <p className="f_feauture_text" key={index}>{feauture}</p>
         })}
@@ -38,10 +38,10 @@ function Feautures(){
     )
 }
 function Company(){
-    const companies=["sample test","sample test","sample test","sample test","sample test",];
+    const companies=["Awards & Reviews","Press & Media","Company Blog","Contact Us"];
     return(
         <>
-        <h4 className="f_feauture_heading">Company</h4>
+        <h4 className="f_feauture_heading">COMPANY</h4>
         {companies.map((feauture,index)=>{
            return <p className="f_feauture_text" key={index}>{feauture}</p>
         })}
@@ -49,10 +49,10 @@ function Company(){
     )
 }
 function GetStarted(){
-    const getstart=["sample test","sample test","sample test","sample test","sample test",];
+    const getstart=["Advertiser Agreement","Acceptable Use Policy","Technology Privacy","Developer Agreement"];
     return(
         <>
-        <h4 className="f_feauture_heading">Get Started</h4>
+        <h4 className="f_feauture_heading">PRIVACY & TOS</h4>
         {getstart.map((feauture,index)=>{
            return <p className="f_feauture_text" key={index}>{feauture}</p>
         })}

@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react';
-import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Legend,Tooltip, ResponsiveContainer } from 'recharts';
+import { AreaChart, Area, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts';
 import "./linechart.css";
 
 
@@ -9,8 +9,8 @@ export default class Example extends PureComponent {
   render() {
     return (
         <div className="linegraphresponsive" >
-                   <div><text x="0" y="100" fill="red" style={{transform: "rotateZ(-90deg)",
-    transformOrigin:" 3% 49%",fontSize:"1rem"}}>Carbon Dioxide (Billion Tons)</text></div>
+                   <div><p x="0" y="100" fill="red" 
+   fontSize="1rem">Carbon Dioxide (Billion Tons)</p></div>
       <ResponsiveContainer >
         <AreaChart
         title="Chart of PU x UV"

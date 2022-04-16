@@ -9,8 +9,8 @@ import Partners from '../partnerpage/partner';
 import Contact from '../contactuspage/contactus';
 import Services from '../services/services';
 import Expertise from '../expertise/expertise';
-import Products from '../products/procucts';
-import {CSSTransition} from "react-transition-group";
+import Products from '../products/products';
+import ScrollToTop from '../scroll'
 function Header(){
   const[click,setClick]=useState("true")
 
@@ -22,10 +22,10 @@ function Header(){
   const handleClick=()=>{
     
    setClick(!click)
-   if(mob_nav_class=="on_closed"){
+   if(mob_nav_class==="on_closed"){
    setmob_nav_class("mob_links")
   }
-   else if(mob_nav_class=="mob_links"){
+   else if(mob_nav_class==="mob_links"){
      setmob_nav_class("on_closed")
    }
    return 0
@@ -33,6 +33,7 @@ function Header(){
 
     return(
       <Router>
+        <ScrollToTop />
    
 
       <div className="NavBar" >
@@ -40,7 +41,7 @@ function Header(){
       <img className="icon" src={require("./logo.png")} alt="icon"/>
 
       <div className="lap_links">
-      <NavLink  to='/' className="lap_a">Home</NavLink>
+      <NavLink  to='/' className="lap_a" >Home</NavLink>
       <NavLink className="lap_a" to='/product'>Product</NavLink>
       <NavLink className="lap_a" to='/team'>Partners</NavLink>
       <NavLink className="lap_a" to='/services'>Services</NavLink>
@@ -48,11 +49,11 @@ function Header(){
       </div>
    
       <div className={mob_nav_class}>
-      <NavLink  to='/' className="mob_a">Home</NavLink>
-      <NavLink className="mob_a" to='/product'>Product</NavLink>
-      <NavLink className="mob_a" to='/team'>Partners</NavLink>
-      <NavLink className="mob_a" to='/services'>Services</NavLink>
-      <NavLink className="mob_a" to='/Contact'>Contact </NavLink>
+      <NavLink  to='/' className="mob_a" onClick={handleClick}>Home</NavLink>
+      <NavLink className="mob_a" to='/product'onClick={handleClick}>Product</NavLink>
+      <NavLink className="mob_a" to='/team'onClick={handleClick}>Partners</NavLink>
+      <NavLink className="mob_a" to='/services'onClick={handleClick}>Services</NavLink>
+      <NavLink className="mob_a" to='/Contact'onClick={handleClick}>Contact </NavLink>
       </div>
 
       <NavLink className="signUp_link" to='/signup'>Sign Up</NavLink>
@@ -85,13 +86,13 @@ function Header(){
      </Router>
     )
 }
-  function Product(){
-    return <h1>Product page under construction</h1>
-  }
+  // function Product(){
+  //   return <h1>Product page under construction</h1>
+  // }
  
 
-  function AnyPage(props){
-    const { value,id } = useParams();
+  function AnyPage(){
+    const { value} = useParams();
     return (
       <>
       <h1>Page Not Found</h1>

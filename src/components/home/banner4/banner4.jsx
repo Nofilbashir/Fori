@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router,Route,Routes,useParams,NavLink} from 'react-router-dom';
+import { NavLink} from 'react-router-dom';
 import "./banner4.css";
 import {BsFileSpreadsheet} from "react-icons/bs"
 function Banner4(){

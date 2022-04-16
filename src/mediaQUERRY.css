@@ -287,10 +287,36 @@
 
   /* ****************************************Partner ****************************************************** */
 
-  .partner_box1_img {
-    width: 80%;
+  .partner{
+    padding: 1rem 2.5rem;
+  }
+  @media only screen and (max-width: 550px) {
+    .partner_box1_img {
+      width: 90%;
+    }
+  }
+  /* ....................................contact page........................................... */
+  .contact{
+    padding: 1rem 2.5rem;
+  }
+  .contact_box2_form {
+   
+    width: 21rem;
+  }
+  .contact_button {
+    border: 1px solid #e21212;
+    border-radius: 19px;
+    background-color: #e21212;
+    color: #efefef;
+    padding: .5rem 0.5rem .5rem 0.5rem;
+    margin: 3rem 1rem 0px 1rem;
   }
 }
+  @media only screen and (max-width: 550px) {
+    .contact_box1_img {
+      width: 90%;
+    }
+  }
 
 @media only screen and (max-width: 390px) {
   .container1-box1-img {
@@ -320,13 +346,13 @@
   .p_div {
     padding: 0;
   }
-  /* Services1 */
+  /* ..........................................................Services1................................... */
   .services_box1 {
     padding: 0px 2rem;
   }
-  .services_top_icon {
-    width: 8rem;
-  }
+  /* .services_top_icon {
+    width: 4rem;
+  } */
   .services_box2 {
     display: grid;
     grid-template-columns: repeat(auto-fill, 17rem);
@@ -410,6 +436,11 @@
     box-shadow: 2px 5px 3px lightgrey;
   }
 }
+@media only screen and (max-width: 550px) {
+
+  .services_img {
+    width: 90%;
+  }}
 /* Services2 */
 
 @media only screen and (max-width: 495px) {

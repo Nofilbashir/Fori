@@ -21,7 +21,7 @@ return(
     <div className="expertise-page">
     <center >
         <div className="expertise_main_icon">
-            <div className="person_icon"><img src={require("./user.png")}/> </div>
+            <div className="person_icon"><img src={require("./user.png") } alt="img"/> </div>
            <div className="three_star_div">
               <RiStarSFill className="three_star"/>
              <RiStarSFill className="three_star"/>

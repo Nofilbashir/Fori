@@ -19,10 +19,10 @@ import Footer from '../footer/footer';
         }
 
 
-        const [record,setRecord]=useState();
+        // const [record,setRecord]=useState();
         const SendMessage=(e)=>{
             e.preventDefault();
-            setRecord(input);
+            // setRecord(input);
                 console.log(input)
             // usersRecords.push(record);
             setInput({
@@ -35,11 +35,21 @@ import Footer from '../footer/footer';
     return(
         <>
         <div className='contact'>
+
         <div className="contact_box1">
-            <center>
-            <BsFillTelephoneFill className='contact_box1_icon'/>
-            <p className='contact_text'>Get in Touch</p>
-            <h3 className="contact_box1_heading">Contact with us</h3>
+            <center >
+               
+            
+             <div className="contact_box1_C1" >
+            <img className="contact_box1_img" src={require("./banner1.png")} alt="img"/>
+           </div>
+           <div className='contact_us_heading_box'>
+           <h1 className="contact_box1_h">Contact Us</h1>
+           <BsFillTelephoneFill className='contact_box1_icon'/>
+           </div>
+            {/* <p className='contact_text'>Get in Touch</p> */}
+
+            {/* <h3 className="contact_box1_heading">Contact with us</h3> */}
             <p className='contact_para'>Ideas, problems, suggestions? We would love to hear from you.
              Please contact us using the information below or by filling out the following form. A Fori representative
               will get back to you as soon as possible.

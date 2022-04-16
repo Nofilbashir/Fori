@@ -1,7 +1,6 @@
 import React from "react";
-import { BrowserRouter as Router,Route,Routes,useParams,NavLink} from 'react-router-dom';
+import { NavLink} from 'react-router-dom';
 import "./banner5.css";
-import {HiOutlineLightBulb} from "react-icons/hi"
 function Banner5(){
     return(
         <>
@@ -15,8 +14,6 @@ function Banner5(){
                        Fori has you covered</p>
                 </center>
                 <div className="b5_box2">
-                    
-                    {/* <div className="b5_icon_box"><HiOutlineLightBulb className="b5_icon"/><p>investment</p></div> */}
                     <div className="b5_icon_box"><div className="b5_icon_background"><img src={require("./iconsimg/ideabulb.png")} alt="img" /> </div><p>Design Thinking Workshops</p></div>
                     <div className="b5_icon_box"><div className="b5_icon_background"><img src={require("./iconsimg/search.png")} alt="img" />   </div><p>Gig Platform</p></div>
                     <div className="b5_icon_box"><div className="b5_icon_background"><img src={require("./iconsimg/hexagon.png")} alt="img" />  </div><p>Propriety  Algorithms</p></div>

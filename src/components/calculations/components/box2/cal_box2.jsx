@@ -38,7 +38,7 @@ return(
       <div className="b2_c3_b2">
       {datab2c3b2.map((obj,index)=>{return (<div className='b2_c3_b1_childs' key={index}><h6 className={`b2_c3_b1${obj.title}`}>{obj.title}</h6><p>{obj.desc}</p><p className={`b2_c3_b1${obj.title}`}>{obj.result}</p></div>)})}
       </div>
-      <p>For diesel vehicles, fuel economy is 14.7 kms/L and for petrol this figure is 14.8 kms/L <a href='https://www.racfoundation.org/media-centre/average-new-car-driven-28-miles-per-day#:~:text=Average%20new%20car%20driven%2028%20miles%20per%20day28%20Apr%202020&text=The%20newest%20cars%20in%20Great,of%2028%20miles%20per%20day'>[8]</a>. So, diesel vehicles will emit 2.6391/14.7 = 0.179 grams of <CO/>,
+      <p>For diesel vehicles, fuel economy is 14.7 kms/L and for petrol this figure is 14.8 kms/L <a href='https://www.racfoundation.org/media-centre/average-new-car-driven-28-miles-per-day#:~:text=Average%20new%20car%20driven%2028%20miles%20per%20day28%20Apr%202020&text=The%20newest%20cars%20in%20Great,of%2028%20miles%20per%20day'  target="_blank" rel="noreferrer">[8]</a>. So, diesel vehicles will emit 2.6391/14.7 = 0.179 grams of <CO/>,
          petrol vehicles will emit 2.3035/14.8 = 0.156 grams of <CO/> and hybrid vehicles will emit<br/> 2.3035/21.23 = 0.108 grams of <CO/> in one kilometre.
       </p>
       <p>We can Calculate the impact of one shared electric vehicle for a day if it travels 720 kms as: </p>
