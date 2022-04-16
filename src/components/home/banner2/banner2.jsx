@@ -8,7 +8,8 @@ function Banner2(){
         
         <div className="b2_about_header">
             <h1 className="b2_about_heading">About FORI</h1>
-            <img className="b2_about_img" src="./logo.png" alt="img"/>
+             <img className="b2_about_img" src="./logo.png" alt="img"/>
+            
         </div>
         <p className="b2_about_para">FORI accelerates satrtup by rapid designing, development and deployment of end-end technoligies for impact foucsed
             startups. We work with ard-picked startups and occasionally corporate initiatives on a preferred 50-50 model

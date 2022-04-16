@@ -14,9 +14,15 @@ function Services(){
     return(
         <>
         <div className="services_box1">
-        <center>
-        <img className='services_top_icon' src={require("./servicesicon.jpg")} alt="img" />
-        <h1 className='services_top_heading'>Our Services</h1>
+        <center className="services_box1-content">
+        
+        <div className="services_box1_C">
+        <img className='services_img'src={require("./banner1.png")} alt="img"/>
+        </div>
+        <div className='services_heading_box'>
+        <h1 className='services_top_heading'>Services</h1>
+        <img className='services_top_icon' src={require("./servicesicon.jpg")} alt="img" />   
+        </div>
         <p className='services_top_para'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates fugit ad suscipit laudantium, 
             maxime earum quo tempora expli
              eum! Doloremque, perspiciatis in.</p>

@@ -10,12 +10,10 @@ html {
   display: flex;
   justify-content: center;
 }
-/* .root { */
-/* background-color: black; */
-/* } */
+
 
 .NavBar {
-  /* max-width: 1600px; */
+ 
   z-index:10;
   display: flex;
   background-color: #ffffff;

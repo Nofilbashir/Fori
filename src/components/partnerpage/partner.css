@@ -1,25 +1,31 @@
 .partner {
   /* margin: 0px 30px; */
-  /* padding-top: 50px; */
+  padding:0rem 4.5rem;
 }
 .partner_box1 {
-  /* height:40vw; */
-  padding: 0px 0px 3.1rem 3.1rem;
-  margin: 0px 2rem;
+  /* height:28rem; */
+  padding: 2rem 0rem 0rem 0rem;
   display: flex;
   justify-content: center;
   align-items: center;
   background-image: linear-gradient(
     172deg,
     #ffffff 41%,
-    #eceaea calc(35% + 2px)
+    #f7f7f7 calc(35% + 2px)
   );
+  border-radius: 2rem;
+}
+.b6_heading{
+  font-size: 2rem;
+  font-size: bold;
+  padding: 0.5rem 1.5rem 0 0;
 }
 .partner_box1_img {
-  width: 50%;
+  padding: 1rem 0rem 0rem 0rem;
+  width: 45%;
 }
 .partner_team_box {
-  margin: 0px 4.5rem;
+  /* margin: 0px 4.5rem; */
   padding-top: 3.1rem;
   box-shadow: 0px 0.1rem #efefef;
 }
@@ -27,12 +33,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5rem 0px 2rem 0px;
+  padding-top: 1.5rem;
+  /* padding: 1rem 0px 1rem 0px; */
+}
+.partner_team_header>h1{
+  /* padding-top:1rem ; */
 }
 .partner_team_header_img {
-  padding-left: 2.3rem;
-  width: 8rem;
+  /* padding-left: 2.3rem; */
+  width: 2.5rem;
 }
 .partner_team_box-p {
-  margin: 0px 6.5rem;
+  /* margin: 0px .5rem; */
+  padding: 1rem;
 }
+

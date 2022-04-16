@@ -16,7 +16,7 @@
   display: grid;
   grid-template-columns: auto auto auto auto 30%;
   justify-content: space-between;
-
+  column-gap: 1rem;
   background-image: url("./footerBackground.png");
   background-color: #f5f4f4;
   /* background: linear-gradient(106deg,  #e0dfdf 121px, #ffffff calc(112px + 2px),transparent 113px),linear-gradient(71.5deg,  #ffffff 252px, #dddddd calc(250px + 1px),#dddbdb 390px, transparent 391px)
@@ -28,7 +28,7 @@
   flex-direction: column;
 }
 .f_fori_info img {
-  width: 11rem;
+  width: 9.5rem;
 }
 .f_text_icon {
   padding: 1rem 0px;
@@ -84,9 +84,18 @@
   font-size: 1rem;
 }
 .copyright {
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
   background-color: rgb(197, 196, 196);
   /* height: 25px; */
   font-size: 0.5rem;
-  padding: 1rem 0rem 0.1rem 4rem;
+  padding: .5rem 0rem 0.5rem 3rem;
   color: white;
+}
+.copyright>p{
+  margin: 0;
+}
+.f_feauture_heading{
+  padding:0rem 0rem 1rem 0rem
 }

@@ -15,11 +15,12 @@ function NewsLetter(){
 
     }
     const [record,setRecord]=useState();
+
     const register=(e)=>{
         e.preventDefault();
         setRecord(input);
         usersRecords.push(record);
-        alert(`${input.name} you have suscribed to fori. You will get newsletter at this email address   ${input.email}`)
+        alert(`Dear ${input.name} you have suscribed to fori.co. You will get newsletters at this email address ${input.email}`)
         setInput({
             name:"",
             email:""

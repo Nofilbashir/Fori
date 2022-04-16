@@ -1,8 +1,8 @@
 import React from "react";
 import {AiOutlineLineChart} from "react-icons/ai"
 import "./banner3.css";
-import DashBoard from "../../dashBoard/dashboard";
-import { BrowserRouter as Router,Route,Routes,useParams,NavLink} from 'react-router-dom';
+
+import { NavLink} from 'react-router-dom';
 function Banner3(){
     return(
         <div className="banner3">
